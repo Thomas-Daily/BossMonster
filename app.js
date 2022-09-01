@@ -66,7 +66,8 @@ function drawPlayersBox() {
   let template = ''
 
   heroes.forEach(hero => {
-    template += `
+    if (hero.currentHealth > 0) {
+      template += `
      <div class="text-light bg-dark col-3">
     <img class='heropic' src="${hero.pic}">
     <p>${hero.name}</p>
@@ -74,7 +75,7 @@ function drawPlayersBox() {
     <p>LEVEL: ${hero.level}</p>
     <p>GOLD: ${hero.gold}</p>
 
-    </div>`
+    </div>`}
   })
   playerBox.innerHTML = template
 }
@@ -122,9 +123,6 @@ function playerLVLup(attackPower) {
   }
   drawPlayersBox()
 }
-
-
-
 
 
 
