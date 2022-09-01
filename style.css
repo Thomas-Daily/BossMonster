@@ -1,0 +1,9 @@
+body {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22e8cc5f-5e7b-4623-a5e5-03f30b4c4bc5/d4vedvr-091fdad1-1b92-42e9-96af-b1d316209586.jpg/v1/fill/w_900,h_637,q_75,strp/going_merry_by_bnnnn-d4vedvr.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8yMmU4Y2M1Zi01ZTdiLTQ2MjMtYTVlNS0wM2YzMGI0YzRiYzUvZDR2ZWR2ci0wOTFmZGFkMS0xYjkyLTQyZTktOTZhZi1iMWQzMTYyMDk1ODYuanBnIiwid2lkdGgiOiI8PTkwMCIsImhlaWdodCI6Ijw9NjM3In1dXX0.WUycdJQ2mHmdcB1sJsLrxLrFpzrXY_15l_mPZRpyCzQ);
+  background-size: cover;
+}
+
+.heropic {
+  max-width: 10rem;
+  max-height: 10rem;
+}
